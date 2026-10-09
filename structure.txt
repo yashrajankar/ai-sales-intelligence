@@ -1,0 +1,49 @@
+AI-Sales-Intelligence/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── Sample - Superstore.csv
+│
+├── database/
+│   ├── schema.sql
+│   ├── data_import.py
+│   ├── views.sql
+│   ├── procedures.sql
+│   ├── functions.sql
+│   └── triggers.sql
+│
+├── analytics/
+│   ├── sales_analysis.py
+│   ├── customer_analysis.py
+│   └── product_analysis.py
+│
+├── ml/
+│   ├── preprocessing.py
+│   ├── forecasting.py
+│   ├── customer_segmentation.py
+│   └── models/
+│
+├── routes/
+│   ├── dashboard.py
+│   ├── sales.py
+│   ├── customers.py
+│   └── forecast.py
+│
+├── templates/
+│   ├── base.html
+│   ├── dashboard.html
+│   ├── sales.html
+│   ├── customers.html
+│   └── forecast.html
+│
+└── static/
+    ├── css/
+    │   └── style.css
+    └── js/
+        ├── dashboard.js
+        ├── sales.js
+        ├── customers.js
+        └── forecast.js

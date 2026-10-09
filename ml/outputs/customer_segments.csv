@@ -1,0 +1,794 @@
+CustomerID,CustomerName,Segment,Recency,Frequency,Monetary,RecencyScore,FrequencyScore,MonetaryScore,RFMScore,SegmentName,ClusterID
+AA-10315,Alex Avila,Consumer,400,19,24943.08,1,2,5,8,Potential Customers,1
+AA-10375,Allen Armold,Consumer,35,33,11912.38,4,5,3,12,Loyal Customers,1
+AA-10480,Andrew Allen,Consumer,50,16,12244.31,4,2,3,9,Potential Customers,0
+AA-10645,Anna Andreadi,Consumer,2,36,19980.3,5,5,4,14,Champions,1
+AB-10015,Aaron Bergman,Consumer,284,16,4635.7,2,2,1,5,Needs Attention,0
+AB-10060,Adam Bellavance,Home Office,3,33,28809.55,5,5,5,15,Champions,1
+AB-10105,Adrian Barton,Consumer,82,41,48241.42,3,5,5,13,Champions,1
+AB-10150,Aimee Bixby,Consumer,5,22,15463.33,5,3,4,12,Loyal Customers,0
+AB-10165,Alan Barnes,Consumer,5,34,8953.91,5,5,2,12,Loyal Customers,1
+AB-10255,Alejandro Ballentine,Home Office,272,25,13109.23,2,4,3,9,Potential Customers,0
+AB-10600,Ann Blume,Corporate,89,13,3112.3,3,1,1,5,Needs Attention,0
+AC-10420,Alyssa Crouse,Corporate,159,10,9283.97,2,1,2,5,Needs Attention,0
+AC-10450,Amy Cox,Consumer,472,16,7898.89,1,2,2,5,Needs Attention,0
+AC-10615,Ann Chong,Corporate,150,24,13712.51,2,3,3,8,Potential Customers,0
+AC-10660,Anna Chung,Consumer,3,16,13029.13,5,2,3,10,Loyal Customers,0
+AD-10180,Alan Dominguez,Home Office,108,30,29166.77,3,4,5,12,Loyal Customers,1
+AF-10870,Art Ferguson,Consumer,102,20,7432.81,3,3,2,8,Potential Customers,0
+AF-10885,Art Foster,Consumer,391,15,3827.83,1,2,1,4,Needs Attention,0
+AG-10270,Alejandro Grove,Consumer,175,24,15859.12,2,3,4,9,Potential Customers,0
+AG-10300,Aleksandra Gannaway,Corporate,964,11,2223.18,1,1,1,3,Needs Attention,2
+AG-10330,Alex Grayson,Consumer,118,23,23343.03,3,3,5,11,Loyal Customers,1
+AG-10390,Allen Goldenen,Consumer,18,13,2221.62,5,1,1,7,Potential Customers,0
+AG-10495,Andrew Gjertsen,Corporate,17,31,17234.53,5,4,4,13,Champions,1
+AG-10525,Andy Gerbode,Corporate,201,15,10826.56,2,2,3,7,Potential Customers,0
+AG-10675,Anna Gayman,Consumer,57,36,31933.44,4,5,5,14,Champions,1
+AG-10765,Anthony Garverick,Home Office,1561,8,1847.9,1,1,1,3,Needs Attention,2
+AG-10900,Arthur Gainer,Consumer,96,32,16514.73,3,5,4,12,Loyal Customers,1
+AH-10030,Aaron Hawkins,Corporate,337,19,14709.01,2,2,4,8,Potential Customers,0
+AH-10075,Adam Hart,Corporate,32,35,19331.59,4,5,4,13,Champions,1
+AH-10120,Adrian Hane,Home Office,49,29,12412.57,4,4,3,11,Loyal Customers,1
+AH-10195,Alan Haines,Corporate,476,14,6099.34,1,1,2,4,Needs Attention,0
+AH-10210,Alan Hwang,Consumer,44,29,28078.46,4,4,5,13,Champions,1
+AH-10465,Amy Hunt,Consumer,189,14,14532.35,2,1,4,7,Potential Customers,0
+AH-10585,Angele Hood,Consumer,61,14,4676.15,3,1,1,5,Needs Attention,0
+AH-10690,Anna HÃ¤berlin,Corporate,47,44,30395.47,4,5,5,14,Champions,1
+AI-10855,Arianne Irving,Consumer,37,37,24287.57,4,5,5,14,Champions,1
+AJ-10780,Anthony Jacobs,Corporate,154,29,37717.26,2,4,5,11,Loyal Customers,1
+AJ-10795,Anthony Johnson,Corporate,406,20,10556.1,1,3,3,7,Potential Customers,0
+AJ-10945,Ashley Jarboe,Consumer,25,17,3788.74,4,2,1,7,Potential Customers,0
+AJ-10960,Astrea Jones,Consumer,1144,7,4213.6,1,1,1,3,Needs Attention,2
+AM-10360,Alice McCarthy,Corporate,15,17,2940.21,5,2,1,8,Potential Customers,0
+AM-10705,Anne McFarland,Consumer,343,25,18432.16,2,4,4,10,Loyal Customers,1
+AO-10810,Anthony O'Donnell,Corporate,1520,2,169.55,1,1,1,3,Needs Attention,2
+AP-10720,Anne Pryor,Home Office,67,35,10145.58,3,5,3,11,Loyal Customers,1
+AP-10915,Arthur Prichep,Consumer,66,56,24001.12,3,5,5,13,Champions,1
+AR-10345,Alex Russell,Corporate,448,12,4232.71,1,1,1,3,Needs Attention,0
+AR-10405,Allen Rosenblatt,Corporate,257,16,15412.89,2,2,4,8,Potential Customers,0
+AR-10510,Andrew Roberts,Consumer,87,18,6121.78,3,2,2,7,Potential Customers,0
+AR-10540,Andy Reiter,Consumer,32,18,32690.06,4,2,5,11,Loyal Customers,1
+AR-10570,Anemone Ratner,Consumer,33,6,5788.46,4,1,2,7,Potential Customers,0
+AR-10825,Anthony Rawles,Corporate,17,29,25697.89,5,4,5,14,Champions,1
+AS-10045,Aaron Smayling,Corporate,27,19,8731.11,4,2,2,8,Potential Customers,0
+AS-10090,Adam Shillingsburg,Consumer,13,38,20187.29,5,5,4,14,Champions,1
+AS-10135,Adrian Shami,Home Office,457,9,3292.5,1,1,1,3,Needs Attention,0
+AS-10225,Alan Schoenberger,Corporate,742,25,34306.31,1,4,5,10,Loyal Customers,1
+AS-10240,Alan Shonely,Consumer,175,22,7273.61,2,3,2,7,Potential Customers,0
+AS-10285,Alejandro Savely,Corporate,1114,14,5353.64,1,1,2,4,Needs Attention,2
+AS-10630,Ann Steele,Home Office,258,29,12795.96,2,4,3,9,Potential Customers,0
+AT-10435,Alyssa Tate,Home Office,678,11,4653.24,1,1,1,3,Needs Attention,0
+AT-10735,Annie Thurman,Consumer,42,33,25692.52,4,5,5,14,Champions,1
+AW-10840,Anthony Witt,Consumer,18,18,6802.79,5,2,2,9,Potential Customers,0
+AW-10930,Arthur Wiediger,Home Office,227,25,8588.61,2,4,2,8,Potential Customers,0
+AY-10555,Andy Yotov,Corporate,5,14,5175.11,5,1,1,7,Potential Customers,0
+AZ-10750,Annie Zypern,Consumer,43,34,10947.17,4,5,3,12,Loyal Customers,1
+BB-10990,Barry Blumstein,Corporate,15,19,16391.24,5,2,4,11,Loyal Customers,0
+BB-11545,Brenda Bowman,Corporate,3,30,26445.66,5,4,5,14,Champions,1
+BC-11125,Becky Castell,Home Office,1,39,16067.15,5,5,4,14,Champions,1
+BD-11320,Bill Donatelli,Consumer,12,38,30768.41,5,5,5,15,Champions,1
+BD-11500,Bradley Drucker,Consumer,250,20,16553.18,2,3,4,9,Potential Customers,0
+BD-11560,Brendan Dodson,Home Office,417,5,706.15,1,1,1,3,Needs Attention,0
+BD-11605,Brian Dahlen,Consumer,118,35,10738.32,3,5,3,11,Loyal Customers,1
+BD-11620,Brian DeCherney,Consumer,756,12,3532.16,1,1,1,3,Needs Attention,2
+BD-11635,Brian Derr,Consumer,171,10,2325.2,2,1,1,4,Needs Attention,0
+BD-11725,Bruce Degenhardt,Consumer,370,19,4908.1,2,2,1,5,Needs Attention,0
+BD-11770,Bryan Davis,Consumer,93,21,14897.26,3,3,4,10,Loyal Customers,0
+BE-11335,Bill Eplett,Home Office,48,21,10284.02,4,3,3,10,Loyal Customers,0
+BE-11410,Bobby Elias,Consumer,1189,9,5899.0,1,1,2,4,Needs Attention,2
+BE-11455,Brad Eason,Home Office,245,20,10503.25,2,3,3,8,Potential Customers,0
+BF-10975,Barbara Fisher,Corporate,32,28,6649.05,4,4,2,10,Loyal Customers,0
+BF-11005,Barry Franz,Home Office,116,14,5343.76,3,1,2,6,Needs Attention,0
+BF-11020,Barry FranzÃ¶sisch,Corporate,96,37,17435.65,3,5,4,12,Loyal Customers,1
+BF-11080,Bart Folk,Consumer,94,11,1319.74,3,1,1,5,Needs Attention,0
+BF-11170,Ben Ferrer,Home Office,236,38,17942.54,2,5,4,11,Loyal Customers,1
+BF-11215,Benjamin Farhat,Home Office,565,14,8953.28,1,1,2,4,Needs Attention,0
+BF-11275,Beth Fritzler,Corporate,512,9,6187.99,1,1,2,4,Needs Attention,0
+BG-11035,Barry Gonzalez,Consumer,96,22,7643.91,3,3,2,8,Potential Customers,0
+BG-11695,Brooke Gillingham,Corporate,94,23,7432.47,3,3,2,8,Potential Customers,0
+BG-11740,Bruce Geld,Consumer,344,13,1465.45,2,1,1,4,Needs Attention,0
+BH-11710,Brosina Hoffman,Consumer,21,40,32677.23,5,5,5,15,Champions,1
+BK-11260,Berenike Kampe,Consumer,107,22,9056.39,3,3,2,8,Potential Customers,0
+BM-11140,Becky Martin,Consumer,54,20,33489.6,4,3,5,12,Loyal Customers,1
+BM-11575,Brendan Murry,Corporate,218,18,3529.44,2,2,1,5,Needs Attention,0
+BM-11650,Brian Moss,Corporate,125,46,39814.43,3,5,5,13,Champions,1
+BM-11785,Bryan Mills,Consumer,27,26,9764.66,4,4,3,11,Loyal Customers,0
+BN-11470,Brad Norvell,Corporate,36,17,3324.15,4,2,1,7,Potential Customers,0
+BN-11515,Bradley Nguyen,Consumer,6,24,9618.35,5,3,3,11,Loyal Customers,0
+BO-11350,Bill Overfelt,Corporate,456,20,6616.67,1,3,2,6,Needs Attention,0
+BO-11425,Bobby Odegard,Consumer,304,10,3745.57,2,1,1,4,Needs Attention,0
+BP-11050,Barry Pond,Corporate,46,17,3054.83,4,2,1,7,Potential Customers,0
+BP-11095,Bart Pistole,Corporate,8,45,13237.72,5,5,3,13,Champions,1
+BP-11155,Becky Pak,Consumer,154,21,9279.46,2,3,2,7,Potential Customers,0
+BP-11185,Ben Peterman,Corporate,31,33,27924.67,4,5,5,14,Champions,1
+BP-11230,Benjamin Patterson,Consumer,148,14,9742.31,2,1,3,6,Needs Attention,0
+BP-11290,Beth Paige,Consumer,124,23,8774.73,3,3,2,8,Potential Customers,0
+BS-11365,Bill Shonely,Corporate,97,19,20919.31,3,2,4,9,Potential Customers,0
+BS-11380,Bill Stewart,Corporate,383,20,8302.33,1,3,2,6,Needs Attention,0
+BS-11590,Brendan Sweed,Corporate,286,25,12423.02,2,4,3,9,Potential Customers,0
+BS-11665,Brian Stugart,Consumer,92,16,8334.28,3,2,2,7,Potential Customers,0
+BS-11755,Bruce Stewart,Consumer,23,28,13360.1,5,4,3,12,Loyal Customers,1
+BS-11800,Bryan Spruell,Home Office,954,8,2149.79,1,1,1,3,Needs Attention,2
+BT-11305,Beth Thompson,Home Office,121,19,17410.64,3,2,4,9,Potential Customers,0
+BT-11395,Bill Tyler,Corporate,162,13,8277.75,2,1,2,5,Needs Attention,0
+BT-11440,Bobby Trafton,Consumer,2258,11,10066.26,1,1,3,5,Needs Attention,2
+BT-11485,Brad Thomas,Home Office,2081,3,435.57,1,1,1,3,Needs Attention,2
+BT-11530,Bradley Talbott,Home Office,793,12,9380.18,1,1,3,5,Needs Attention,2
+BT-11680,Brian Thompson,Consumer,39,34,19881.99,4,5,4,13,Champions,1
+BV-11245,Benjamin Venier,Corporate,71,22,6646.8,3,3,2,8,Potential Customers,0
+BW-11065,Barry Weirich,Consumer,447,7,2989.16,1,1,1,3,Needs Attention,0
+BW-11110,Bart Watters,Corporate,27,31,15951.23,4,4,4,12,Loyal Customers,1
+BW-11200,Ben Wallace,Consumer,96,17,6368.92,3,2,2,7,Potential Customers,0
+CA-11965,Carol Adams,Corporate,120,17,11307.53,3,2,3,8,Potential Customers,0
+CA-12055,Cathy Armstrong,Home Office,402,23,8942.66,1,3,2,6,Needs Attention,0
+CA-12265,Christina Anderson,Consumer,87,33,16274.05,3,5,4,12,Loyal Customers,1
+CA-12310,Christine Abelman,Corporate,462,21,7898.96,1,3,2,6,Needs Attention,0
+CA-12775,Cynthia Arntzen,Consumer,15,29,12677.74,5,4,3,12,Loyal Customers,1
+CB-12025,Cassandra Brandow,Consumer,11,44,31838.4,5,5,5,15,Champions,1
+CB-12415,Christy Brittain,Consumer,8,35,12492.56,5,5,3,13,Champions,1
+CB-12535,Claudia Bergmann,Corporate,367,27,14655.15,2,4,4,10,Loyal Customers,0
+CC-12100,Chad Cunningham,Home Office,37,27,4742.79,4,4,1,9,Potential Customers,0
+CC-12145,Charles Crestani,Consumer,127,23,18981.26,3,3,4,10,Loyal Customers,1
+CC-12220,Chris Cortes,Consumer,1,42,22296.07,5,5,5,15,Champions,1
+CC-12370,Christopher Conant,Consumer,8,19,31375.25,5,2,5,12,Loyal Customers,1
+CC-12430,Chuck Clark,Home Office,40,35,10225.11,4,5,3,12,Loyal Customers,1
+CC-12475,Cindy Chapman,Consumer,474,23,10875.91,1,3,3,7,Potential Customers,0
+CC-12550,Clay Cheatham,Consumer,84,8,1369.29,3,1,1,5,Needs Attention,0
+CC-12610,Corey Catlett,Corporate,19,32,21453.57,5,5,5,15,Champions,1
+CC-12670,Craig Carreira,Consumer,436,18,6728.75,1,2,2,5,Needs Attention,0
+CC-12685,Craig Carroll,Consumer,402,18,12739.12,1,2,3,6,Needs Attention,0
+CD-11920,Carlos Daly,Consumer,20,22,18417.4,5,3,4,12,Loyal Customers,0
+CD-11980,Carol Darley,Consumer,54,18,13900.44,4,2,4,10,Loyal Customers,0
+CD-12280,Christina DeMoss,Consumer,101,20,11256.65,3,3,3,9,Potential Customers,0
+CD-12790,Cynthia Delaney,Home Office,607,15,6732.08,1,2,2,5,Needs Attention,0
+CG-12040,Catherine Glotzbach,Home Office,115,17,4654.17,3,2,1,6,Needs Attention,0
+CG-12520,Claire Gute,Consumer,543,6,2330.09,1,1,1,3,Needs Attention,0
+CH-12070,Cathy Hwang,Home Office,353,14,3907.75,2,1,1,4,Needs Attention,0
+CJ-11875,Carl Jackson,Corporate,1181,2,28.79,1,1,1,3,Needs Attention,2
+CJ-12010,Caroline Jumper,Consumer,6,30,32297.62,5,4,5,14,Champions,1
+CK-12205,Chloris Kastensmidt,Consumer,59,50,14505.39,3,5,4,12,Loyal Customers,1
+CK-12325,Christine Kargatis,Home Office,100,18,7292.31,3,2,2,7,Potential Customers,0
+CK-12595,Clytie Kelty,Consumer,4,32,7559.54,5,5,2,12,Loyal Customers,0
+CK-12760,Cyma Kinney,Corporate,96,21,11696.46,3,3,3,9,Potential Customers,0
+CL-11890,Carl Ludwig,Consumer,897,10,2513.49,1,1,1,3,Needs Attention,2
+CL-12565,Clay Ludtke,Consumer,66,49,43545.75,3,5,5,13,Champions,1
+CL-12700,Craig Leslie,Home Office,84,15,9754.2,3,2,3,8,Potential Customers,0
+CM-11815,Candace McMahon,Corporate,178,18,4052.1,2,2,1,5,Needs Attention,0
+CM-11935,Carlos Meador,Consumer,459,10,14266.88,1,1,4,6,Needs Attention,0
+CM-12115,Chad McGuire,Consumer,258,20,20051.18,2,3,4,9,Potential Customers,0
+CM-12160,Charles McCrossin,Consumer,15,15,11034.94,5,2,3,10,Loyal Customers,0
+CM-12190,Charlotte Melton,Consumer,1193,8,2324.36,1,1,1,3,Needs Attention,2
+CM-12235,Chris McAfee,Consumer,759,16,13311.49,1,2,3,6,Needs Attention,0
+CM-12385,Christopher Martinez,Consumer,41,20,25704.23,4,3,5,12,Loyal Customers,1
+CM-12445,Chuck Magee,Consumer,84,14,5821.37,3,2,2,7,Potential Customers,0
+CM-12655,Corinna Mitchell,Home Office,14,18,26042.08,5,2,5,12,Loyal Customers,1
+CM-12715,Craig Molinari,Corporate,102,18,10296.66,3,2,3,8,Potential Customers,0
+Co-12640,Corey-Lock,Consumer,583,22,10706.36,1,3,3,7,Potential Customers,0
+CP-12085,Cathy Prescott,Corporate,39,34,23939.12,4,5,5,14,Champions,1
+CP-12340,Christine Phan,Corporate,10,24,17239.55,5,3,4,12,Loyal Customers,1
+CR-12580,Clay Rozendal,Home Office,105,14,33955.67,3,2,5,10,Loyal Customers,1
+CR-12625,Corey Roper,Home Office,105,8,2264.9,3,1,1,5,Needs Attention,0
+CR-12730,Craig Reiter,Consumer,543,16,4922.0,1,2,1,4,Needs Attention,0
+CR-12820,Cyra Reiten,Home Office,617,14,7323.69,1,2,2,5,Needs Attention,0
+CS-11845,Cari Sayre,Corporate,945,11,5529.94,1,1,2,4,Needs Attention,2
+CS-11860,Cari Schnelling,Consumer,78,15,4922.5,3,2,1,6,Needs Attention,0
+CS-11950,Carlos Soltero,Consumer,10,38,18163.69,5,5,4,14,Champions,1
+CS-12130,Chad Sievert,Consumer,149,14,3207.13,2,2,1,5,Needs Attention,0
+CS-12175,Charles Sheldon,Corporate,16,21,15048.56,5,3,4,12,Loyal Customers,0
+CS-12250,Chris Selesnick,Corporate,18,46,11821.83,5,5,3,13,Champions,1
+CS-12355,Christine Sundaresam,Consumer,8,41,14862.5,5,5,4,14,Champions,1
+CS-12400,Christopher Schild,Home Office,114,24,7273.03,3,3,2,8,Potential Customers,0
+CS-12460,Chuck Sachs,Consumer,321,7,1476.03,2,1,1,4,Needs Attention,0
+CS-12490,Cindy Schnelling,Corporate,70,9,12536.64,3,1,3,7,Potential Customers,0
+CS-12505,Cindy Stewart,Consumer,47,22,20057.3,4,3,4,11,Loyal Customers,1
+CT-11995,Carol Triggs,Consumer,5,34,15407.18,5,5,4,14,Champions,1
+CV-12295,Christina VanderZanden,Consumer,6,21,22578.44,5,3,5,13,Champions,1
+CV-12805,Cynthia Voltz,Corporate,183,28,11996.01,2,4,3,9,Potential Customers,0
+CW-11905,Carl Weiss,Home Office,89,16,5729.3,3,2,2,7,Potential Customers,0
+CY-12745,Craig Yedwab,Corporate,229,29,14429.02,2,4,4,10,Loyal Customers,1
+DA-13450,Dianna Arnett,Home Office,139,19,6475.54,3,2,2,7,Potential Customers,0
+DB-12910,Daniel Byrd,Home Office,7,26,5183.42,5,4,1,10,Loyal Customers,0
+DB-12970,Darren Budd,Corporate,23,19,8453.32,5,3,2,10,Loyal Customers,0
+DB-13060,Dave Brooks,Consumer,298,20,11317.79,2,3,3,8,Potential Customers,0
+DB-13120,David Bremer,Corporate,46,22,15997.19,4,3,4,11,Loyal Customers,0
+DB-13210,Dean Braden,Consumer,374,33,9673.37,2,5,3,10,Loyal Customers,0
+DB-13270,Deborah Brumfield,Home Office,13,26,18266.42,5,4,4,13,Champions,1
+DB-13360,Dennis Bolton,Home Office,56,7,1244.01,4,1,1,6,Needs Attention,0
+DB-13405,Denny Blanton,Consumer,426,21,7583.72,1,3,2,6,Needs Attention,0
+DB-13555,Dorothy Badders,Corporate,369,23,9976.31,2,3,3,8,Potential Customers,0
+DB-13615,Doug Bickford,Consumer,4,27,26152.13,5,4,5,14,Champions,1
+DB-13660,Duane Benoit,Consumer,90,19,6059.14,3,3,2,8,Potential Customers,0
+DC-12850,Dan Campbell,Consumer,75,32,12576.48,3,5,3,11,Loyal Customers,1
+DC-13285,Debra Catini,Consumer,133,12,2766.27,3,1,1,5,Needs Attention,0
+DD-13570,Dorothy Dickinson,Consumer,1,19,5953.3,5,3,2,10,Loyal Customers,0
+DE-13255,Deanra Eno,Home Office,21,16,14683.34,5,2,4,11,Loyal Customers,0
+DF-13135,David Flashing,Consumer,6,14,5281.64,5,2,2,9,Potential Customers,0
+DG-13300,Deirdre Greer,Corporate,42,20,16464.94,4,3,4,11,Loyal Customers,0
+DH-13075,Dave Hallsten,Corporate,6,25,9767.64,5,4,3,12,Loyal Customers,0
+DH-13675,Duane Huffman,Home Office,96,17,6596.85,3,2,2,7,Potential Customers,0
+DJ-13420,Denny Joy,Corporate,838,11,9400.15,1,1,3,5,Needs Attention,2
+DJ-13510,Don Jones,Corporate,17,23,10876.26,5,3,3,11,Loyal Customers,0
+DJ-13630,Doug Jacobs,Consumer,134,11,19953.66,3,1,4,8,Potential Customers,0
+DK-12835,Damala Kotsonis,Corporate,233,43,17730.06,2,5,4,11,Loyal Customers,1
+DK-12895,Dana Kaydos,Consumer,42,24,33582.82,4,3,5,12,Loyal Customers,1
+DK-12985,Darren Koutras,Consumer,79,16,17918.89,3,2,4,9,Potential Customers,0
+DK-13090,Dave Kipp,Consumer,51,26,8214.5,4,4,2,10,Loyal Customers,0
+DK-13150,David Kendrick,Corporate,179,4,1749.97,2,1,1,4,Needs Attention,0
+DK-13225,Dean Katz,Corporate,34,29,31494.25,4,4,5,13,Champions,1
+DK-13375,Dennis Kane,Consumer,3,36,22098.62,5,5,5,15,Champions,1
+DL-12865,Dan Lawera,Consumer,261,26,42224.45,2,4,5,11,Loyal Customers,1
+DL-12925,Daniel Lacy,Consumer,152,20,15983.02,2,3,4,9,Potential Customers,0
+DL-13315,Delfina Latchford,Consumer,15,22,19313.94,5,3,4,12,Loyal Customers,1
+DL-13330,Denise Leinenbach,Consumer,91,15,13847.61,3,2,4,9,Potential Customers,0
+DL-13495,Dionis Lloyd,Corporate,561,23,13258.92,1,3,3,7,Potential Customers,0
+Dl-13600,Dorris liebe,Corporate,514,12,6116.24,1,1,2,4,Needs Attention,0
+DM-12955,Dario Medina,Corporate,576,15,6649.08,1,2,2,5,Needs Attention,0
+DM-13015,Darrin Martin,Consumer,186,25,15325.95,2,4,4,10,Loyal Customers,0
+DM-13345,Denise Monton,Corporate,6,27,25583.24,5,4,5,14,Champions,1
+DM-13525,Don Miller,Corporate,212,19,7819.49,2,3,2,7,Potential Customers,0
+DN-13690,Duane Noonan,Consumer,38,24,22555.12,4,3,5,12,Loyal Customers,1
+DO-13435,Denny Ordway,Consumer,96,24,4285.13,3,3,1,7,Potential Customers,0
+DO-13645,Doug O'Connell,Consumer,165,16,6321.79,2,2,2,6,Needs Attention,0
+DP-13000,Darren Powers,Consumer,194,31,10508.64,2,4,3,9,Potential Customers,0
+DP-13105,Dave Poirier,Corporate,98,33,27265.0,3,5,5,13,Champions,1
+DP-13165,David Philippe,Consumer,248,5,3639.32,2,1,1,4,Needs Attention,0
+Dp-13240,Dean percer,Home Office,20,40,38938.41,5,5,5,15,Champions,1
+DP-13390,Dennis Pardue,Home Office,14,34,31409.92,5,5,5,15,Champions,1
+DR-12880,Dan Reichenbach,Corporate,9,32,22771.49,5,5,5,15,Champions,1
+DR-12940,Daniel Raglin,Home Office,120,26,24625.87,3,4,5,12,Loyal Customers,1
+DS-13030,Darrin Sayre,Home Office,204,26,7315.08,2,4,2,8,Potential Customers,0
+DS-13180,David Smith,Corporate,480,29,26422.9,1,4,5,10,Loyal Customers,1
+DV-13045,Darrin Van Huff,Corporate,26,13,6866.16,4,1,2,7,Potential Customers,0
+DV-13465,Dianna Vittorini,Consumer,115,20,13699.88,3,3,3,9,Potential Customers,0
+DW-13195,David Wiener,Corporate,469,19,4748.05,1,3,1,5,Needs Attention,0
+DW-13480,Dianna Wilson,Home Office,1036,16,16713.37,1,2,4,7,Potential Customers,2
+DW-13540,Don Weiss,Consumer,283,22,5548.6,2,3,2,7,Potential Customers,0
+DW-13585,Dorothy Wardle,Corporate,2,24,6057.78,5,3,2,10,Loyal Customers,0
+EA-14035,Erin Ashbrook,Corporate,17,42,24323.74,5,5,5,15,Champions,1
+EB-13705,Ed Braxton,Corporate,207,23,10883.99,2,3,3,8,Potential Customers,0
+EB-13750,Edward Becker,Corporate,219,28,8339.68,2,4,2,8,Potential Customers,0
+EB-13840,Ellis Ballard,Corporate,426,16,12236.15,1,2,3,6,Needs Attention,0
+EB-13870,Emily Burns,Consumer,392,26,17524.98,1,4,4,9,Potential Customers,1
+EB-13930,Eric Barreto,Consumer,1,12,9447.62,5,1,3,9,Potential Customers,0
+EB-13975,Erica Bern,Corporate,148,10,5126.97,2,1,1,4,Needs Attention,0
+EB-14110,Eugene Barchas,Consumer,526,19,5069.49,1,3,1,5,Needs Attention,0
+EB-14170,Evan Bailliet,Consumer,315,13,1970.55,2,1,1,4,Needs Attention,0
+EC-14050,Erin Creighton,Consumer,94,16,3655.75,3,2,1,6,Needs Attention,0
+ED-13885,Emily Ducich,Home Office,30,33,33462.24,4,5,5,14,Champions,1
+EG-13900,Emily Grady,Consumer,224,21,9510.49,2,3,3,8,Potential Customers,0
+EH-13765,Edward Hooks,Corporate,5,40,38275.03,5,5,5,15,Champions,1
+EH-13945,Eric Hoffmann,Consumer,35,28,20492.42,4,4,4,12,Loyal Customers,1
+EH-13990,Erica Hackney,Consumer,29,16,3171.83,4,2,1,7,Potential Customers,0
+EH-14005,Erica Hernandez,Home Office,76,24,7597.97,3,3,2,8,Potential Customers,0
+EH-14125,Eugene Hildebrand,Home Office,53,34,15874.5,4,5,4,13,Champions,1
+EH-14185,Evan Henry,Consumer,51,12,3315.27,4,1,1,6,Needs Attention,0
+EJ-13720,Ed Jacobs,Consumer,49,27,16146.44,4,4,4,12,Loyal Customers,1
+EJ-14155,Eva Jacobs,Consumer,374,17,21099.25,2,2,4,8,Potential Customers,0
+EK-13795,Eileen Kiefer,Home Office,570,12,3062.84,1,1,1,3,Needs Attention,0
+EL-13735,Ed Ludwig,Home Office,1767,3,152.37,1,1,1,3,Needs Attention,2
+EM-13810,Eleni McCrary,Corporate,257,14,13398.8,2,2,3,7,Potential Customers,0
+EM-13825,Elizabeth Moffitt,Corporate,219,34,18234.22,2,5,4,11,Loyal Customers,1
+EM-13960,Eric Murdock,Consumer,409,14,2972.87,1,2,1,4,Needs Attention,0
+EM-14065,Erin Mull,Consumer,497,16,2008.72,1,2,1,4,Needs Attention,0
+EM-14095,Eudokia Martin,Corporate,17,22,10308.48,5,3,3,11,Loyal Customers,0
+EM-14140,Eugene Moren,Home Office,155,27,13462.49,2,4,3,9,Potential Customers,0
+EM-14200,Evan Minnotte,Home Office,101,12,4399.96,3,1,1,5,Needs Attention,0
+EN-13780,Edward Nazzal,Consumer,331,7,2803.61,2,1,1,4,Needs Attention,0
+EP-13915,Emily Phan,Consumer,32,51,30320.02,4,5,5,14,Champions,1
+ER-13855,Elpida Rittenbach,Corporate,39,11,19337.3,4,1,4,9,Potential Customers,0
+ES-14020,Erica Smith,Consumer,572,15,26954.81,1,2,5,8,Potential Customers,0
+ES-14080,Erin Smith,Corporate,9,33,16885.08,5,5,4,14,Champions,1
+FA-14230,Frank Atkinson,Corporate,98,31,14444.43,3,4,4,11,Loyal Customers,1
+FC-14245,Frank Carlisle,Home Office,112,23,10264.31,3,3,3,9,Potential Customers,0
+FC-14335,Fred Chung,Corporate,379,15,7013.14,2,2,2,6,Needs Attention,0
+FG-14260,Frank Gastineau,Home Office,14,25,5926.37,5,4,2,11,Loyal Customers,0
+FH-14275,Frank Hawley,Corporate,187,39,27368.15,2,5,5,12,Loyal Customers,1
+FH-14350,Fred Harton,Consumer,45,21,6637.38,4,3,2,9,Potential Customers,0
+FH-14365,Fred Hopkins,Corporate,250,21,15909.56,2,3,4,9,Potential Customers,0
+FM-14215,Filia McAdams,Corporate,49,34,22130.32,4,5,5,14,Champions,1
+FM-14290,Frank Merwin,Home Office,20,25,8456.48,5,4,2,11,Loyal Customers,0
+FM-14380,Fred McMath,Consumer,119,32,15414.75,3,5,4,12,Loyal Customers,1
+FO-14305,Frank Olsen,Consumer,61,28,13720.8,3,4,3,10,Loyal Customers,1
+FP-14320,Frank Preis,Consumer,95,28,19634.0,3,4,4,11,Loyal Customers,1
+FW-14395,Fred Wasserman,Corporate,202,8,1249.79,2,1,1,4,Needs Attention,0
+GA-14515,George Ashbrook,Consumer,107,20,12354.67,3,3,3,9,Potential Customers,0
+GA-14725,Guy Armstrong,Consumer,376,36,14801.07,2,5,4,11,Loyal Customers,1
+GB-14530,George Bell,Corporate,247,37,36588.92,2,5,5,12,Loyal Customers,1
+GB-14575,Giulietta Baptist,Consumer,21,23,11154.57,5,3,3,11,Loyal Customers,0
+GD-14590,Giulietta Dortch,Corporate,437,15,14034.35,1,2,4,7,Potential Customers,0
+GG-14650,Greg Guthrie,Corporate,16,48,16835.81,5,5,4,14,Champions,1
+GH-14410,Gary Hansen,Home Office,20,35,16003.76,5,5,4,14,Champions,1
+GH-14425,Gary Hwang,Consumer,404,12,9480.57,1,1,3,5,Needs Attention,0
+GH-14485,Gene Hale,Corporate,1520,6,4752.75,1,1,1,3,Needs Attention,2
+GH-14665,Greg Hansen,Consumer,424,5,1066.67,1,1,1,3,Needs Attention,0
+GK-14620,Grace Kelly,Corporate,384,24,34118.72,1,3,5,9,Potential Customers,1
+GM-14440,Gary McGarr,Consumer,45,24,16501.32,4,3,4,11,Loyal Customers,0
+GM-14455,Gary Mitchum,Home Office,215,22,19307.02,2,3,4,9,Potential Customers,0
+GM-14500,Gene McClure,Consumer,528,31,14383.36,1,4,4,9,Potential Customers,1
+GM-14680,Greg Matthias,Consumer,272,22,11210.6,2,3,3,8,Potential Customers,0
+GM-14695,Greg Maxwell,Corporate,118,21,30134.74,3,3,5,11,Loyal Customers,1
+GP-14740,Guy Phonely,Corporate,12,6,2776.25,5,1,1,7,Potential Customers,0
+GR-14560,Georgia Rosenberg,Corporate,1819,7,1525.66,1,1,1,3,Needs Attention,2
+GT-14635,Grant Thornton,Corporate,319,9,16848.47,2,1,4,7,Potential Customers,0
+GT-14710,Greg Tran,Consumer,106,47,74480.97,3,5,5,13,Champions,1
+GT-14755,Guy Thornton,Consumer,1304,10,2110.66,1,1,1,3,Needs Attention,2
+GW-14605,Giulietta Weimer,Consumer,33,22,4961.44,4,3,1,8,Potential Customers,0
+GZ-14470,Gary Zandusky,Consumer,297,19,17414.07,2,3,4,9,Potential Customers,0
+GZ-14545,George Zrebassa,Corporate,59,16,8238.93,3,2,2,7,Potential Customers,0
+HA-14905,Helen Abelman,Consumer,87,16,7778.53,3,2,2,7,Potential Customers,0
+HA-14920,Helen Andreada,Consumer,35,29,10367.59,4,4,3,11,Loyal Customers,0
+HD-14785,Harold Dahlen,Home Office,57,10,3311.7,4,1,1,6,Needs Attention,0
+HE-14800,Harold Engle,Corporate,1,15,8298.2,5,2,2,9,Potential Customers,0
+HF-14995,Herbert Flentye,Consumer,20,23,10615.32,5,3,3,11,Loyal Customers,0
+HG-14845,Harry Greene,Consumer,37,22,5940.03,4,3,2,9,Potential Customers,0
+HG-14965,Henry Goldwyn,Corporate,69,22,7747.21,3,3,2,8,Potential Customers,0
+HG-15025,Hunter Glantz,Consumer,89,21,9610.34,3,3,3,9,Potential Customers,0
+HH-15010,Hilary Holden,Corporate,102,11,4391.15,3,1,1,5,Needs Attention,0
+HJ-14875,Heather Jas,Home Office,294,14,21328.61,2,2,5,9,Potential Customers,0
+HK-14890,Heather Kirkland,Corporate,87,37,24625.41,3,5,5,13,Champions,1
+HL-15040,Hunter Lopez,Consumer,22,18,24565.72,5,2,5,12,Loyal Customers,1
+HM-14860,Harry Marie,Corporate,586,27,22901.7,1,4,5,10,Loyal Customers,1
+HM-14980,Henry MacAllister,Consumer,851,11,2743.32,1,1,1,3,Needs Attention,2
+HP-14815,Harold Pawlan,Home Office,398,20,8639.08,1,3,2,6,Needs Attention,0
+HR-14770,Hallie Redmond,Home Office,71,19,10266.98,3,3,3,9,Potential Customers,0
+HR-14830,Harold Ryan,Corporate,384,22,15771.37,1,3,4,8,Potential Customers,0
+HW-14935,Helen Wasserman,Corporate,62,31,24873.12,3,4,5,12,Loyal Customers,1
+HZ-14950,Henia Zydlo,Consumer,1376,11,2309.88,1,1,1,3,Needs Attention,2
+IG-15085,Ivan Gibson,Consumer,522,18,8900.18,1,2,2,5,Needs Attention,0
+IL-15100,Ivan Liston,Consumer,26,23,22476.26,4,3,5,12,Loyal Customers,1
+IM-15055,Ionia McGrath,Consumer,844,5,3222.89,1,1,1,3,Needs Attention,2
+IM-15070,Irene Maddox,Consumer,49,30,14341.07,4,4,4,12,Loyal Customers,1
+JA-15970,Joseph Airdo,Consumer,3,38,24403.82,5,5,5,15,Champions,1
+JB-15400,Jennifer Braxton,Corporate,400,25,14650.6,1,4,4,9,Potential Customers,0
+JB-15925,Joni Blumstein,Consumer,16,16,3743.98,5,2,1,8,Potential Customers,0
+JB-16000,Joy Bell-,Consumer,761,18,9641.74,1,2,3,6,Needs Attention,0
+JB-16045,Julia Barnett,Home Office,1000,16,14132.78,1,2,4,7,Potential Customers,2
+JC-15340,Jasper Cacioppo,Consumer,366,11,1431.89,2,1,1,4,Needs Attention,0
+JC-15385,Jenna Caffey,Consumer,289,7,2243.61,2,1,1,4,Needs Attention,0
+JC-15775,John Castell,Consumer,32,36,23214.39,4,5,5,14,Champions,1
+JC-16105,Julie Creighton,Corporate,113,26,16986.11,3,4,4,11,Loyal Customers,1
+JD-15790,John Dryer,Consumer,72,17,11677.34,3,2,3,8,Potential Customers,0
+JD-15895,Jonathan Doherty,Corporate,39,45,22536.15,4,5,5,14,Champions,1
+JD-16015,Joy Daniels,Consumer,109,19,4134.34,3,3,1,7,Potential Customers,0
+JD-16060,Julia Dunbar,Consumer,48,16,4265.93,4,2,1,7,Potential Customers,0
+JD-16150,Justin Deggeller,Corporate,328,24,17793.36,2,4,4,10,Loyal Customers,0
+JE-15475,Jeremy Ellison,Consumer,266,18,7810.4,2,2,2,6,Needs Attention,0
+JE-15610,Jim Epp,Corporate,35,31,38800.06,4,4,5,13,Champions,1
+JE-15715,Joe Elijah,Consumer,33,36,26777.99,4,5,5,14,Champions,1
+JE-15745,Joel Eaton,Consumer,378,37,23716.18,2,5,5,12,Loyal Customers,1
+JE-16165,Justin Ellison,Corporate,1061,7,19064.03,1,1,4,6,Needs Attention,2
+JF-15190,Jamie Frazer,Consumer,421,35,7212.6,1,5,2,8,Potential Customers,0
+JF-15295,Jason Fortune-,Consumer,78,25,8690.73,3,4,2,9,Potential Customers,0
+JF-15355,Jay Fein,Consumer,104,24,8008.22,3,4,2,9,Potential Customers,0
+JF-15415,Jennifer Ferguson,Consumer,25,25,17077.28,4,4,4,12,Loyal Customers,1
+JF-15490,Jeremy Farry,Consumer,222,33,20438.52,2,5,4,11,Loyal Customers,1
+JF-15565,Jill Fjeld,Consumer,38,35,21693.13,4,5,5,14,Champions,1
+JG-15115,Jack Garza,Consumer,466,8,4049.11,1,1,1,3,Needs Attention,0
+JG-15160,James Galang,Consumer,40,37,41319.0,4,5,5,14,Champions,1
+JG-15310,Jason Gross,Corporate,37,24,12980.04,4,4,3,11,Loyal Customers,0
+JG-15805,John Grady,Corporate,152,18,9919.29,2,2,3,7,Potential Customers,0
+JH-15430,Jennifer Halladay,Consumer,112,16,1815.03,3,2,1,6,Needs Attention,0
+JH-15820,John Huston,Consumer,726,17,5096.24,1,2,1,4,Needs Attention,0
+JH-15910,Jonathan Howell,Consumer,13,20,15012.3,5,3,4,12,Loyal Customers,0
+JH-15985,Joseph Holt,Consumer,53,20,21964.1,4,3,5,12,Loyal Customers,1
+JH-16180,Justin Hirsh,Consumer,400,8,3463.34,1,1,1,3,Needs Attention,0
+JJ-15445,Jennifer Jackson,Consumer,58,11,1486.28,3,1,1,5,Needs Attention,0
+JJ-15760,Joel Jenkins,Home Office,114,8,2058.79,3,1,1,5,Needs Attention,0
+JK-15205,Jamie Kunitz,Consumer,404,23,21987.55,1,3,5,9,Potential Customers,1
+JK-15325,Jason Klamczynski,Corporate,1144,6,2618.04,1,1,1,3,Needs Attention,2
+JK-15370,Jay Kimmel,Consumer,487,24,10930.06,1,4,3,8,Potential Customers,0
+JK-15625,Jim Karlsson,Consumer,13,29,22114.33,5,4,5,14,Champions,1
+JK-15640,Jim Kriz,Home Office,424,20,16667.33,1,3,4,8,Potential Customers,0
+JK-15730,Joe Kamberova,Consumer,147,32,20053.24,2,5,4,11,Loyal Customers,1
+JK-16090,Juliana Krohn,Consumer,41,15,8337.49,4,2,2,8,Potential Customers,0
+JK-16120,Julie Kriz,Home Office,46,34,18130.65,4,5,4,13,Champions,1
+JL-15130,Jack Lebron,Consumer,2,26,6058.94,5,4,2,11,Loyal Customers,0
+JL-15175,James Lanier,Home Office,465,10,3638.17,1,1,1,3,Needs Attention,0
+JL-15235,Janet Lee,Consumer,206,12,8900.34,2,1,2,5,Needs Attention,0
+JL-15505,Jeremy Lonsdale,Consumer,24,27,12493.63,4,4,3,11,Loyal Customers,0
+JL-15835,John Lee,Consumer,52,61,56648.44,4,5,5,14,Champions,1
+JL-15850,John Lucas,Consumer,128,20,6566.77,3,3,2,8,Potential Customers,0
+JM-15250,Janet Martin,Consumer,44,31,11476.22,4,4,3,11,Loyal Customers,1
+JM-15265,Janet Molinari,Corporate,149,28,7236.09,2,4,2,8,Potential Customers,0
+JM-15535,Jessica Myrick,Consumer,243,15,4121.5,2,2,1,5,Needs Attention,0
+JM-15580,Jill Matthias,Consumer,1,22,6315.46,5,3,2,10,Loyal Customers,0
+JM-15655,Jim Mitchum,Corporate,2,20,8480.93,5,3,2,10,Loyal Customers,0
+JM-15865,John Murray,Consumer,362,21,28322.67,2,3,5,10,Loyal Customers,1
+JM-16195,Justin MacKendrick,Consumer,39,42,13830.66,4,5,4,13,Champions,1
+JO-15145,Jack O'Briant,Corporate,175,26,24856.95,2,4,5,11,Loyal Customers,1
+JO-15280,Jas O'Carroll,Consumer,15,28,14306.81,5,4,4,13,Champions,1
+JO-15550,Jesus Ocampo,Home Office,571,16,5071.7,1,2,1,4,Needs Attention,0
+JP-15460,Jennifer Patt,Corporate,4,30,12321.01,5,4,3,12,Loyal Customers,1
+JP-15520,Jeremy Pistek,Consumer,10,25,15167.58,5,4,4,13,Champions,0
+JP-16135,Julie Prescott,Home Office,115,31,9763.05,3,4,3,10,Loyal Customers,0
+JR-15670,Jim Radford,Consumer,1697,5,3206.8,1,1,1,3,Needs Attention,2
+JR-15700,Jocasta Rupert,Consumer,1106,3,4326.7,1,1,1,3,Needs Attention,2
+JR-16210,Justin Ritter,Corporate,98,24,12730.35,3,4,3,10,Loyal Customers,0
+JS-15595,Jill Stevenson,Corporate,154,12,6140.96,2,1,2,5,Needs Attention,0
+JS-15685,Jim Sink,Corporate,464,16,5358.28,1,2,2,5,Needs Attention,0
+JS-15880,John Stevenson,Consumer,185,15,8544.29,2,2,2,6,Needs Attention,0
+JS-15940,Joni Sundaresam,Home Office,116,25,8812.51,3,4,2,9,Potential Customers,0
+JS-16030,Joy Smith,Consumer,21,30,21439.44,5,4,5,14,Champions,1
+JW-15220,Jane Waco,Corporate,296,18,22718.7,2,2,5,9,Potential Customers,0
+JW-15955,Joni Wasserman,Consumer,11,25,8087.62,5,4,2,11,Loyal Customers,0
+JW-16075,Julia West,Consumer,377,13,7227.9,2,1,2,5,Needs Attention,0
+KA-16525,Kelly Andreada,Consumer,24,24,11869.46,4,4,3,11,Loyal Customers,0
+KB-16240,Karen Bern,Corporate,14,21,15867.12,5,3,4,12,Loyal Customers,0
+KB-16315,Karl Braun,Consumer,140,24,8638.04,3,4,2,9,Potential Customers,0
+KB-16405,Katrina Bavinger,Home Office,294,16,5143.09,2,2,1,5,Needs Attention,0
+KB-16585,Ken Black,Corporate,19,25,11594.83,5,4,3,12,Loyal Customers,0
+KB-16600,Ken Brennan,Corporate,10,19,10815.84,5,3,3,11,Loyal Customers,0
+KC-16255,Karen Carlisle,Corporate,37,14,5377.08,4,2,2,8,Potential Customers,0
+KC-16540,Kelly Collister,Consumer,92,13,12384.85,3,1,3,7,Potential Customers,0
+KC-16675,Kimberly Carter,Corporate,111,13,4460.19,3,1,1,5,Needs Attention,0
+KD-16270,Karen Daniels,Consumer,57,24,15080.16,4,4,4,12,Loyal Customers,0
+KD-16345,Katherine Ducich,Consumer,9,21,11242.8,5,3,3,11,Loyal Customers,0
+KD-16495,Keith Dawkins,Corporate,38,36,19701.62,4,5,4,13,Champions,1
+KD-16615,Ken Dana,Corporate,93,19,23978.53,3,3,5,11,Loyal Customers,1
+KE-16420,Katrina Edelman,Corporate,174,26,5347.23,2,4,2,8,Potential Customers,0
+KF-16285,Karen Ferguson,Home Office,79,27,17851.7,3,4,4,11,Loyal Customers,1
+KH-16330,Katharine Harms,Corporate,8,23,9683.01,5,3,3,11,Loyal Customers,0
+KH-16360,Katherine Hughes,Consumer,55,22,16233.86,4,3,4,11,Loyal Customers,0
+KH-16510,Keith Herrera,Consumer,33,31,14818.83,4,4,4,12,Loyal Customers,1
+KH-16630,Ken Heidel,Corporate,463,33,28708.84,1,5,5,11,Loyal Customers,1
+KH-16690,Kristen Hastings,Corporate,30,29,23575.81,4,4,5,13,Champions,1
+KL-16555,Kelly Lampkin,Corporate,337,33,29930.52,2,5,5,12,Loyal Customers,1
+KL-16645,Ken Lonsdale,Consumer,13,38,57365.33,5,5,5,15,Champions,1
+KM-16225,Kalyca Meade,Corporate,143,29,13681.45,2,4,3,9,Potential Customers,1
+KM-16375,Katherine Murray,Home Office,21,21,16678.66,5,3,4,12,Loyal Customers,0
+KM-16660,Khloe Miller,Consumer,3,19,19477.0,5,3,4,12,Loyal Customers,0
+KM-16720,Kunst Miller,Consumer,23,49,29279.45,5,5,5,15,Champions,1
+KN-16390,Katherine Nockton,Corporate,207,30,13762.32,2,4,3,9,Potential Customers,1
+KN-16450,Kean Nguyen,Corporate,35,16,7815.5,4,2,2,8,Potential Customers,0
+KN-16705,Kristina Nunn,Home Office,1013,21,7152.91,1,3,2,6,Needs Attention,2
+KS-16300,Karen Seio,Corporate,770,10,2188.87,1,1,1,3,Needs Attention,2
+KT-16465,Kean Takahito,Consumer,239,21,8238.26,2,3,2,7,Potential Customers,0
+KT-16480,Kean Thornton,Consumer,394,28,29415.06,1,4,5,10,Loyal Customers,1
+KW-16435,Katrina Willman,Consumer,129,18,10372.36,3,2,3,8,Potential Customers,0
+KW-16570,Kelly Williams,Consumer,1638,11,10688.17,1,1,3,5,Needs Attention,2
+LA-16780,Laura Armstrong,Corporate,4,34,30025.86,5,5,5,15,Champions,1
+LB-16735,Larry Blacks,Consumer,1239,5,126.66,1,1,1,3,Needs Attention,2
+LB-16795,Laurel Beltran,Home Office,39,39,11699.07,4,5,3,12,Loyal Customers,1
+LC-16870,Lena Cacioppo,Consumer,2,43,16342.67,5,5,4,14,Champions,1
+LC-16885,Lena Creighton,Consumer,12,42,20442.53,5,5,4,14,Champions,1
+LC-16930,Linda Cazamias,Corporate,128,21,17004.91,3,3,4,10,Loyal Customers,0
+LC-16960,Lindsay Castell,Home Office,348,10,9330.21,2,1,3,6,Needs Attention,0
+LC-17050,Liz Carlisle,Consumer,575,16,10149.04,1,2,3,6,Needs Attention,0
+LC-17140,Logan Currie,Consumer,288,30,15061.34,2,4,4,10,Loyal Customers,1
+LD-16855,Lela Donovan,Corporate,618,3,666.5,1,1,1,3,Needs Attention,2
+LD-17005,Lisa DeCherney,Consumer,180,15,6609.89,2,2,2,6,Needs Attention,0
+LE-16810,Laurel Elliston,Consumer,45,18,6203.23,4,2,2,8,Potential Customers,0
+LF-17185,Luke Foster,Consumer,36,27,17151.47,4,4,4,12,Loyal Customers,1
+LH-16750,Larry Hughes,Consumer,34,8,1848.07,4,1,1,6,Needs Attention,0
+LH-16900,Lena Hernandez,Consumer,137,26,13074.08,3,4,3,10,Loyal Customers,0
+LH-17020,Lisa Hazard,Consumer,27,9,690.07,4,1,1,6,Needs Attention,0
+LH-17155,Logan Haushalter,Consumer,50,36,11777.52,4,5,3,12,Loyal Customers,1
+LL-16840,Lauren Leatherbury,Consumer,16,24,8750.38,5,4,2,11,Loyal Customers,0
+LM-17065,Liz MacKendrick,Consumer,16,12,13034.15,5,1,3,9,Potential Customers,0
+LO-17170,Lori Olson,Corporate,451,17,4129.41,1,2,1,4,Needs Attention,0
+LP-17080,Liz Pelletier,Consumer,111,13,4134.29,3,1,1,5,Needs Attention,0
+LP-17095,Liz Preis,Consumer,4,23,10102.42,5,3,3,11,Loyal Customers,0
+LR-16915,Lena Radford,Consumer,422,16,7695.51,1,2,2,5,Needs Attention,0
+LR-17035,Lisa Ryan,Corporate,199,21,11267.93,2,3,3,8,Potential Customers,0
+LS-16945,Linda Southworth,Corporate,294,23,13469.36,2,3,3,8,Potential Customers,0
+LS-16975,Lindsay Shagiari,Home Office,425,38,9998.66,1,5,3,9,Potential Customers,1
+LS-17200,Luke Schmidt,Corporate,18,30,6518.34,5,4,2,11,Loyal Customers,0
+LS-17230,Lycoris Saunders,Consumer,146,12,3010.23,2,1,1,4,Needs Attention,0
+LS-17245,Lynn Smith,Consumer,5,18,4640.92,5,2,1,8,Potential Customers,0
+LT-16765,Larry Tron,Consumer,376,7,1374.62,2,1,1,4,Needs Attention,0
+LT-17110,Liz Thompson,Consumer,365,23,10459.75,2,3,3,8,Potential Customers,0
+LW-16825,Laurel Workman,Corporate,128,25,15651.42,3,4,4,11,Loyal Customers,0
+LW-16990,Lindsay Williams,Corporate,278,19,6151.68,2,3,2,7,Potential Customers,0
+LW-17125,Liz Willingham,Consumer,179,12,8712.02,2,1,2,5,Needs Attention,0
+LW-17215,Luke Weiss,Consumer,120,19,12183.18,3,3,3,9,Potential Customers,0
+MA-17560,Matt Abelman,Home Office,19,54,24587.56,5,5,5,15,Champions,1
+MA-17995,Michelle Arnett,Home Office,10,23,14384.12,5,3,4,12,Loyal Customers,0
+MB-17305,Maria Bertelson,Consumer,31,32,17718.22,4,5,4,13,Champions,1
+MB-18085,Mick Brown,Consumer,382,14,6029.1,2,2,2,6,Needs Attention,0
+MC-17275,Marc Crier,Consumer,22,21,4786.46,5,3,1,9,Potential Customers,0
+MC-17425,Mark Cousins,Corporate,76,21,24038.76,3,3,5,11,Loyal Customers,1
+MC-17575,Matt Collins,Consumer,41,17,4308.11,4,2,1,7,Potential Customers,0
+MC-17590,Matt Collister,Corporate,155,20,5237.39,2,3,2,7,Potential Customers,0
+MC-17605,Matt Connell,Corporate,59,39,10855.32,3,5,3,11,Loyal Customers,1
+MC-17635,Matthew Clasen,Corporate,673,18,12730.06,1,2,3,6,Needs Attention,0
+MC-17845,Michael Chen,Consumer,37,34,23807.63,4,5,5,14,Champions,1
+MC-18100,Mick Crebagga,Consumer,330,33,21218.27,2,5,5,12,Loyal Customers,1
+MC-18130,Mike Caudle,Corporate,427,21,8139.43,1,3,2,6,Needs Attention,0
+MD-17350,Maribeth Dona,Consumer,14,21,24508.79,5,3,5,13,Champions,1
+MD-17860,Michael Dominguez,Corporate,56,14,3437.65,4,2,1,7,Potential Customers,0
+ME-17320,Maria Etezadi,Home Office,39,38,36055.27,4,5,5,14,Champions,1
+ME-17725,Max Engle,Consumer,49,23,16603.43,4,3,4,11,Loyal Customers,0
+ME-18010,Michelle Ellison,Corporate,1069,17,8076.6,1,2,2,5,Needs Attention,2
+MF-17665,Maureen Fritzler,Corporate,34,15,6420.75,4,2,2,8,Potential Customers,0
+MF-18250,Monica Federle,Corporate,9,18,21432.33,5,2,5,12,Loyal Customers,0
+MG-17650,Matthew Grinstein,Home Office,369,31,22619.22,2,5,5,12,Loyal Customers,1
+MG-17680,Maureen Gastineau,Home Office,73,16,11213.57,3,2,3,8,Potential Customers,0
+MG-17695,Maureen Gnade,Consumer,50,13,2414.82,4,1,1,6,Needs Attention,0
+MG-17875,Michael Grace,Home Office,46,18,9949.64,4,2,3,9,Potential Customers,0
+MG-17890,Michael Granlund,Home Office,136,29,16124.01,3,4,4,11,Loyal Customers,1
+MG-18145,Mike Gockenbach,Consumer,493,14,8722.52,1,2,2,5,Needs Attention,0
+MG-18205,Mitch Gastineau,Corporate,1448,5,1094.17,1,1,1,3,Needs Attention,2
+MH-17290,Marc Harrigan,Home Office,101,16,6410.71,3,2,2,7,Potential Customers,0
+MH-17440,Mark Haberlin,Corporate,7,17,6776.32,5,2,2,9,Potential Customers,0
+MH-17455,Mark Hamilton,Consumer,46,22,9858.38,4,3,3,10,Loyal Customers,0
+MH-17620,Matt Hagelstein,Corporate,5,14,6804.08,5,2,2,9,Potential Customers,0
+MH-17785,Maya Herman,Corporate,5,19,9211.73,5,3,2,10,Loyal Customers,0
+MH-18025,Michelle Huthwaite,Consumer,369,12,6029.82,2,1,2,5,Needs Attention,0
+MH-18115,Mick Hernandez,Home Office,212,26,17759.72,2,4,4,10,Loyal Customers,1
+MJ-17740,Max Jones,Consumer,49,31,63195.96,4,5,5,14,Champions,1
+MK-17905,Michael Kennedy,Corporate,46,36,12597.51,4,5,3,12,Loyal Customers,1
+MK-18160,Mike Kennedy,Consumer,180,16,13918.8,2,2,4,8,Potential Customers,0
+ML-17395,Marina Lichtenstein,Corporate,121,35,11094.54,3,5,3,11,Loyal Customers,1
+ML-17410,Maris LaWare,Consumer,95,25,15796.94,3,4,4,11,Loyal Customers,0
+ML-17755,Max Ludwig,Home Office,55,19,12542.4,4,3,3,10,Loyal Customers,0
+ML-18040,Michelle Lonsdale,Corporate,480,13,2323.19,1,1,1,3,Needs Attention,0
+ML-18265,Muhammed Lee,Consumer,380,8,3585.6,2,1,1,4,Needs Attention,0
+MM-17260,Magdelene Morse,Consumer,109,12,3716.91,3,1,1,5,Needs Attention,0
+MM-17920,Michael Moore,Consumer,42,33,39729.31,4,5,5,14,Champions,1
+MM-18055,Michelle Moray,Consumer,127,31,9892.14,3,5,3,11,Loyal Customers,0
+MM-18280,Muhammed MacIntyre,Corporate,170,21,6412.05,2,3,2,7,Potential Customers,0
+MN-17935,Michael Nguyen,Consumer,1467,15,10348.19,1,2,3,6,Needs Attention,2
+MO-17500,Mary O'Rourke,Consumer,481,8,3909.49,1,1,1,3,Needs Attention,0
+MO-17800,Meg O'Connel,Home Office,240,20,12198.3,2,3,3,8,Potential Customers,0
+MO-17950,Michael Oakman,Consumer,43,8,7976.25,4,1,2,7,Potential Customers,0
+MP-17470,Mark Packer,Home Office,428,25,14452.27,1,4,4,9,Potential Customers,0
+MP-17965,Michael Paige,Corporate,1,38,21455.84,5,5,5,15,Champions,1
+MP-18175,Mike Pelletier,Home Office,42,30,17382.47,4,4,4,12,Loyal Customers,1
+MR-17545,Mathew Reese,Home Office,1114,9,9281.57,1,1,2,4,Needs Attention,2
+MS-17365,Maribeth Schnelling,Consumer,73,47,39619.18,3,5,5,13,Champions,1
+MS-17530,MaryBeth Skach,Consumer,31,13,6472.88,4,1,2,7,Potential Customers,0
+MS-17710,Maurice Satty,Consumer,151,27,11237.15,2,4,3,9,Potential Customers,0
+MS-17770,Maxwell Schwartz,Consumer,37,36,25232.13,4,5,5,14,Champions,1
+MS-17830,Melanie Seite,Consumer,112,9,1048.83,3,1,1,5,Needs Attention,0
+MS-17980,Michael Stewart,Corporate,22,20,5445.99,5,3,2,10,Loyal Customers,0
+MT-17815,Meg Tillman,Consumer,115,21,9107.76,3,3,2,8,Potential Customers,0
+MT-18070,Michelle Tran,Home Office,59,16,8077.82,3,2,2,7,Potential Customers,0
+MV-17485,Mark Van Huff,Consumer,26,33,9636.15,4,5,3,12,Loyal Customers,1
+MV-18190,Mike Vittorini,Consumer,28,19,8027.24,4,3,2,9,Potential Customers,0
+MW-18220,Mitch Webber,Consumer,465,26,22963.63,1,4,5,10,Loyal Customers,1
+MW-18235,Mitch Willingham,Corporate,1606,5,5624.97,1,1,2,4,Needs Attention,2
+MY-17380,Maribeth Yedwab,Corporate,5,26,11958.72,5,4,3,12,Loyal Customers,0
+MY-18295,Muhammed Yedwab,Corporate,186,38,24193.57,2,5,5,12,Loyal Customers,1
+MZ-17335,Maria Zettner,Home Office,23,18,5406.83,5,2,2,9,Potential Customers,0
+MZ-17515,Mary Zewe,Corporate,828,21,11969.31,1,3,3,7,Potential Customers,2
+NB-18580,Nicole Brennan,Corporate,424,7,22391.82,1,1,5,7,Potential Customers,0
+NB-18655,Nona Balk,Corporate,54,32,12528.25,4,5,3,12,Loyal Customers,1
+NC-18340,Nat Carroll,Consumer,26,18,10295.21,4,2,3,9,Potential Customers,0
+NC-18415,Nathan Cano,Consumer,410,24,19057.75,1,4,4,9,Potential Customers,1
+NC-18535,Nick Crebassa,Corporate,123,22,21654.98,3,3,5,11,Loyal Customers,1
+NC-18625,Noah Childs,Corporate,27,21,6271.49,4,3,2,9,Potential Customers,0
+ND-18370,Natalie DeCherney,Consumer,297,33,27769.47,2,5,5,12,Loyal Customers,1
+ND-18460,Neil Ducich,Corporate,51,11,4501.64,4,1,1,6,Needs Attention,0
+NF-18385,Natalie Fritzler,Consumer,34,25,24608.32,4,4,5,13,Champions,1
+NF-18475,Neil FranzÃ¶sisch,Home Office,17,11,9070.96,5,1,2,8,Potential Customers,0
+NF-18595,Nicole Fjeld,Home Office,469,25,14857.75,1,4,4,9,Potential Customers,0
+NG-18355,Nat Gilpin,Corporate,74,31,22744.56,3,5,5,13,Champions,1
+NG-18430,Nathan Gelder,Consumer,61,17,14504.24,3,2,4,9,Potential Customers,0
+NH-18610,Nicole Hansen,Corporate,45,22,7781.49,4,3,2,9,Potential Customers,0
+NK-18490,Neil Knudson,Home Office,60,27,9851.06,3,4,3,10,Loyal Customers,0
+NL-18310,Nancy Lomonaco,Home Office,581,12,3726.96,1,1,1,3,Needs Attention,0
+NM-18445,Nathan Mautz,Home Office,142,21,15422.61,2,3,4,9,Potential Customers,0
+NM-18520,Neoma Murray,Consumer,45,25,15559.78,4,4,4,12,Loyal Customers,0
+NP-18325,Naresj Patel,Consumer,23,31,28835.49,5,5,5,15,Champions,1
+NP-18670,Nora Paige,Consumer,22,20,10008.66,5,3,3,11,Loyal Customers,0
+NP-18685,Nora Pelletier,Home Office,37,13,1711.33,4,1,1,6,Needs Attention,0
+NP-18700,Nora Preis,Consumer,208,18,16324.09,2,2,4,8,Potential Customers,0
+NR-18550,Nick Radford,Consumer,56,26,9651.39,4,4,3,11,Loyal Customers,0
+NS-18505,Neola Schneider,Consumer,46,30,10268.07,4,4,3,11,Loyal Customers,0
+NS-18640,Noel Staavos,Corporate,18,43,10061.15,5,5,3,13,Champions,1
+NW-18400,Natalie Webber,Consumer,219,30,28222.23,2,4,5,11,Loyal Customers,1
+NZ-18565,Nick Zandusky,Home Office,18,33,15849.9,5,5,4,14,Champions,1
+ON-18715,Odella Nelson,Corporate,15,32,14261.88,5,5,4,14,Champions,1
+OT-18730,Olvera Toch,Consumer,143,21,20644.3,2,3,4,9,Potential Customers,1
+PA-19060,Pete Armstrong,Home Office,64,19,2476.37,3,3,1,7,Potential Customers,0
+PB-18805,Patrick Bzostek,Home Office,12,14,12176.95,5,2,3,10,Loyal Customers,0
+PB-19105,Peter BÃ¼hler,Consumer,107,13,2929.76,3,1,1,5,Needs Attention,0
+PB-19150,Philip Brown,Consumer,13,21,9458.62,5,3,3,11,Loyal Customers,0
+PB-19210,Phillip Breyer,Corporate,2870,3,300.85,1,1,1,3,Needs Attention,2
+PC-18745,Pamela Coakley,Corporate,89,13,10123.86,3,1,3,7,Potential Customers,0
+PC-19000,Pauline Chand,Home Office,1150,5,3445.02,1,1,1,3,Needs Attention,2
+PF-19120,Peter Fuller,Consumer,134,31,35641.41,3,5,5,13,Champions,1
+PF-19165,Philip Fox,Consumer,183,31,26820.89,2,5,5,12,Loyal Customers,1
+PF-19225,Phillip Flathmann,Consumer,385,18,9339.43,1,2,3,6,Needs Attention,0
+PG-18820,Patrick Gardner,Consumer,15,43,26767.12,5,5,5,15,Champions,1
+PG-18895,Paul Gonzalez,Consumer,149,34,11417.5,2,5,3,10,Loyal Customers,1
+PH-18790,Patricia Hirasaki,Home Office,225,3,1572.37,2,1,1,4,Needs Attention,0
+PJ-18835,Patrick Jones,Corporate,71,24,10354.37,3,4,3,10,Loyal Customers,0
+PJ-19015,Pauline Johnson,Consumer,110,19,10993.47,3,3,3,9,Potential Customers,0
+PK-18910,Paul Knutson,Home Office,387,7,3829.15,1,1,1,3,Needs Attention,0
+PK-19075,Pete Kriz,Consumer,6,33,21320.92,5,5,5,15,Champions,1
+PL-18925,Paul Lucas,Home Office,227,14,2675.87,2,2,1,5,Needs Attention,0
+PM-18940,Paul MacIntyre,Consumer,783,10,7220.41,1,1,2,4,Needs Attention,2
+PM-19135,Peter McVee,Home Office,13,13,16786.28,5,1,4,10,Loyal Customers,0
+PN-18775,Parhena Norris,Home Office,614,22,8914.28,1,3,2,6,Needs Attention,0
+PO-18850,Patrick O'Brill,Consumer,408,38,24118.44,1,5,5,11,Loyal Customers,1
+PO-18865,Patrick O'Donnell,Consumer,2,26,20074.87,5,4,4,13,Champions,1
+PO-19180,Philisse Overcash,Home Office,90,36,26010.69,3,5,5,13,Champions,1
+PO-19195,Phillina Ober,Home Office,95,18,7199.14,3,2,2,7,Potential Customers,0
+PP-18955,Paul Prost,Home Office,8,48,26788.39,5,5,5,15,Champions,1
+PR-18880,Patrick Ryan,Consumer,648,19,3407.67,1,3,1,5,Needs Attention,0
+PS-18760,Pamela Stobb,Consumer,55,33,18800.7,4,5,4,13,Champions,1
+PS-18970,Paul Stevenson,Home Office,95,24,6723.21,3,4,2,9,Potential Customers,0
+PS-19045,Penelope Sewall,Home Office,11,27,31590.4,5,4,5,14,Champions,1
+PT-19090,Pete Takahito,Consumer,195,12,1346.24,2,1,1,4,Needs Attention,0
+PV-18985,Paul Van Hugh,Home Office,38,17,6662.94,4,2,2,8,Potential Customers,0
+PW-19030,Pauline Webber,Corporate,33,25,29357.12,4,4,5,13,Champions,1
+PW-19240,Pierre Wener,Consumer,500,24,23849.3,1,4,5,10,Loyal Customers,1
+QJ-19255,Quincy Jones,Corporate,449,28,16351.65,1,4,4,9,Potential Customers,1
+RA-19285,Ralph Arnett,Consumer,106,25,11802.33,3,4,3,10,Loyal Customers,0
+RA-19885,Ruben Ausman,Corporate,96,23,14524.38,3,3,4,10,Loyal Customers,0
+RA-19915,Russell Applegate,Consumer,48,40,24015.77,4,5,5,14,Champions,1
+RA-19945,Ryan Akin,Consumer,409,14,5116.73,1,2,1,4,Needs Attention,0
+RB-19330,Randy Bradley,Consumer,289,10,4084.42,2,1,1,4,Needs Attention,0
+RB-19360,Raymond Buch,Consumer,21,34,40767.05,5,5,5,15,Champions,1
+RB-19435,Richard Bierner,Consumer,86,19,5769.41,3,3,2,8,Potential Customers,0
+RB-19465,Rick Bensley,Home Office,56,38,18679.51,4,5,4,13,Champions,1
+RB-19570,Rob Beeghly,Consumer,43,15,8167.34,4,2,2,8,Potential Customers,0
+RB-19645,Robert Barroso,Corporate,744,16,2888.19,1,2,1,4,Needs Attention,2
+RB-19705,Roger Barcio,Home Office,389,15,16531.52,1,2,4,7,Potential Customers,0
+RB-19795,Ross Baird,Home Office,44,28,19935.68,4,4,4,12,Loyal Customers,1
+RC-19825,Roy Collins,Consumer,293,21,8282.79,2,3,2,7,Potential Customers,0
+RC-19960,Ryan Crowe,Consumer,91,18,3115.55,3,2,1,6,Needs Attention,0
+RD-19480,Rick Duston,Consumer,117,31,19348.57,3,5,4,12,Loyal Customers,1
+RD-19585,Rob Dowd,Consumer,11,43,23174.42,5,5,5,15,Champions,1
+RD-19660,Robert Dilbeck,Home Office,414,13,7128.6,1,1,2,4,Needs Attention,0
+RD-19720,Roger Demir,Consumer,12,33,12436.35,5,5,3,13,Champions,1
+RD-19810,Ross DeVincentis,Home Office,106,26,8088.56,3,4,2,9,Potential Customers,0
+RD-19900,Ruben Dartt,Consumer,1,37,13054.42,5,5,3,13,Champions,1
+RD-19930,Russell D'Ascenzo,Consumer,283,24,11267.32,2,4,3,9,Potential Customers,0
+RE-19405,Ricardo Emerson,Consumer,2338,2,56.54,1,1,1,3,Needs Attention,2
+RE-19450,Richard Eichhorn,Consumer,59,18,6674.16,3,2,2,7,Potential Customers,0
+RF-19345,Randy Ferguson,Corporate,214,27,22102.91,2,4,5,11,Loyal Customers,1
+RF-19735,Roland Fjeld,Consumer,2,29,24011.4,5,4,5,14,Champions,1
+RF-19840,Roy FranzÃ¶sisch,Consumer,30,18,6918.58,4,2,2,8,Potential Customers,0
+RH-19495,Rick Hansen,Consumer,31,16,30162.03,4,2,5,11,Loyal Customers,1
+RH-19510,Rick Huthwaite,Home Office,203,30,32953.74,2,4,5,11,Loyal Customers,1
+RH-19555,Ritsa Hightower,Consumer,1941,4,868.0,1,1,1,3,Needs Attention,2
+RH-19600,Rob Haberlin,Consumer,223,11,4149.47,2,1,1,4,Needs Attention,0
+RK-19300,Ralph Kennedy,Consumer,666,14,5021.49,1,2,1,4,Needs Attention,0
+RL-19615,Rob Lucas,Consumer,42,28,18452.35,4,4,4,12,Loyal Customers,1
+RM-19375,Raymond Messe,Consumer,231,20,8087.71,2,3,2,7,Potential Customers,0
+RM-19675,Robert Marley,Home Office,108,19,24654.29,3,3,5,11,Loyal Customers,1
+RM-19750,Roland Murray,Consumer,383,3,338.23,1,1,1,3,Needs Attention,0
+RO-19780,Rose O'Brian,Consumer,39,24,14744.47,4,4,4,12,Loyal Customers,0
+RP-19270,Rachel Payne,Corporate,143,16,14932.88,2,2,4,8,Potential Customers,0
+RP-19390,Resi PÃ¶lking,Consumer,77,36,22488.72,3,5,5,13,Champions,1
+RP-19855,Roy Phan,Corporate,34,30,13047.24,4,4,3,11,Loyal Customers,1
+RR-19315,Ralph Ritter,Consumer,1012,6,1040.33,1,1,1,3,Needs Attention,2
+RR-19525,Rick Reed,Corporate,372,24,10146.39,2,4,3,9,Potential Customers,0
+RS-19420,Ricardo Sperren,Corporate,56,24,21309.18,4,4,5,13,Champions,1
+RS-19765,Roland Schwarz,Corporate,32,25,9934.75,4,4,3,11,Loyal Customers,0
+RS-19870,Roy Skaria,Home Office,616,8,6719.32,1,1,2,4,Needs Attention,0
+RW-19540,Rick Wilson,Corporate,12,38,30393.36,5,5,5,15,Champions,1
+RW-19630,Rob Williams,Corporate,26,31,24287.12,4,5,5,14,Champions,1
+RW-19690,Robert Waldorf,Consumer,61,22,17434.84,3,3,4,10,Loyal Customers,0
+SA-20830,Sue Ann Reed,Consumer,250,28,13620.32,2,4,3,9,Potential Customers,0
+SB-20170,Sarah Bern,Consumer,19,19,11547.59,5,3,3,11,Loyal Customers,0
+SB-20185,Sarah Brown,Consumer,337,19,19827.13,2,3,4,9,Potential Customers,0
+SB-20290,Sean Braxton,Corporate,16,34,43380.54,5,5,5,15,Champions,1
+SC-20020,Sam Craven,Consumer,142,25,9785.34,2,4,3,9,Potential Customers,0
+SC-20050,Sample Company A,Home Office,8,28,30311.21,5,4,5,14,Champions,1
+SC-20095,Sanjit Chand,Consumer,12,36,37484.6,5,5,5,15,Champions,1
+SC-20230,Scot Coram,Corporate,385,26,23673.93,1,4,5,10,Loyal Customers,1
+SC-20260,Scott Cohen,Corporate,8,35,20237.58,5,5,4,14,Champions,1
+SC-20305,Sean Christensen,Consumer,4,25,34633.11,5,4,5,14,Champions,1
+SC-20380,Shahid Collister,Consumer,31,38,39645.45,4,5,5,14,Champions,1
+SC-20440,Shaun Chance,Corporate,252,20,5770.68,2,3,2,7,Potential Customers,0
+SC-20575,Sonia Cooley,Consumer,216,14,9485.89,2,2,3,7,Potential Customers,0
+SC-20680,Steve Carroll,Home Office,281,12,2798.65,2,1,1,4,Needs Attention,0
+SC-20695,Steve Chapman,Corporate,173,24,12129.58,2,4,3,9,Potential Customers,0
+SC-20725,Steven Cartwright,Consumer,11,46,15890.16,5,5,4,14,Champions,1
+SC-20770,Stewart Carmichael,Corporate,29,29,13364.68,4,4,3,11,Loyal Customers,1
+SC-20800,Stuart Calhoun,Consumer,1115,11,4749.67,1,1,1,3,Needs Attention,2
+SC-20845,Sung Chung,Consumer,112,7,2589.84,3,1,1,5,Needs Attention,0
+SD-20485,Shirley Daniels,Home Office,16,37,23801.32,5,5,5,15,Champions,1
+SE-20110,Sanjit Engle,Consumer,45,31,37455.81,4,5,5,14,Champions,1
+SF-20065,Sandra Flanagan,Consumer,128,22,5035.35,3,3,1,7,Potential Customers,0
+SF-20200,Sarah Foster,Consumer,19,32,16916.16,5,5,4,14,Champions,1
+SF-20965,Sylvia Foulston,Corporate,14,32,24276.49,5,5,5,15,Champions,1
+SG-20080,Sandra Glassco,Consumer,137,20,36330.1,3,3,5,11,Loyal Customers,1
+SG-20470,Sheri Gordon,Consumer,41,27,9997.56,4,4,3,11,Loyal Customers,0
+SG-20605,Speros Goranitis,Consumer,22,20,10192.54,5,3,3,11,Loyal Customers,0
+SG-20890,Susan Gilcrest,Corporate,766,11,5024.33,1,1,1,3,Needs Attention,2
+SH-19975,Sally Hughsby,Corporate,50,43,11345.65,4,5,3,12,Loyal Customers,1
+SH-20395,Shahid Hopkins,Consumer,124,26,13961.72,3,4,4,11,Loyal Customers,0
+SH-20635,Stefanie Holloman,Corporate,99,3,2198.7,3,1,1,5,Needs Attention,0
+SJ-20125,Sanjit Jacobs,Home Office,8,38,24793.12,5,5,5,15,Champions,1
+SJ-20215,Sarah Jordon,Consumer,23,17,6380.24,4,2,2,8,Potential Customers,0
+SJ-20500,Shirley Jackson,Consumer,247,15,6010.47,2,2,2,6,Needs Attention,0
+SK-19990,Sally Knutson,Consumer,2464,4,1862.39,1,1,1,3,Needs Attention,2
+SL-20155,Sara Luxemburg,Home Office,113,17,15385.69,3,2,4,9,Potential Customers,0
+SM-20005,Sally Matthias,Consumer,106,12,2141.75,3,1,1,5,Needs Attention,0
+SM-20320,Sean Miller,Home Office,738,24,46443.08,1,4,5,10,Loyal Customers,1
+SM-20905,Susan MacKendrick,Consumer,49,8,3410.02,4,1,1,6,Needs Attention,0
+SM-20950,Suzanne McNair,Corporate,112,40,31931.38,3,5,5,13,Champions,1
+SN-20560,Skye Norling,Home Office,161,19,16917.2,2,3,4,9,Potential Customers,0
+SN-20710,Steve Nguyen,Home Office,259,33,13968.66,2,5,4,11,Loyal Customers,1
+SO-20335,Sean O'Donnell,Consumer,94,12,4619.13,3,1,1,5,Needs Attention,0
+SP-20545,Sibella Parks,Corporate,33,20,8233.06,4,3,2,9,Potential Customers,0
+SP-20620,Stefania Perrino,Corporate,162,39,18935.69,2,5,4,11,Loyal Customers,1
+SP-20650,Stephanie Phelps,Corporate,448,26,11334.38,1,4,3,8,Potential Customers,0
+SP-20860,Sung Pak,Corporate,60,34,24300.27,3,5,5,13,Champions,1
+SP-20920,Susan Pistek,Consumer,187,24,27939.32,2,4,5,11,Loyal Customers,1
+SR-20425,Sharelle Roach,Home Office,399,14,8427.05,1,2,2,5,Needs Attention,0
+SR-20740,Steven Roelle,Home Office,27,20,36869.79,4,3,5,12,Loyal Customers,1
+SS-20140,Saphhira Shifley,Corporate,6,31,12804.75,5,5,3,13,Champions,1
+SS-20410,Shahid Shariari,Consumer,38,17,11540.47,4,2,3,9,Potential Customers,0
+SS-20515,Shirley Schmidt,Home Office,1,10,3419.59,5,1,1,7,Potential Customers,0
+SS-20590,Sonia Sunley,Consumer,737,17,10249.35,1,2,3,6,Needs Attention,0
+SS-20875,Sung Shariari,Consumer,105,25,20417.07,3,4,4,11,Loyal Customers,1
+ST-20530,Shui Tom,Consumer,23,27,13270.59,4,4,3,11,Loyal Customers,0
+SU-20665,Stephanie Ulpright,Home Office,15,31,11303.94,5,5,3,13,Champions,1
+SV-20365,Seth Vernon,Consumer,29,53,47952.59,4,5,5,14,Champions,1
+SV-20785,Stewart Visinsky,Consumer,52,42,22579.85,4,5,5,14,Champions,1
+SV-20815,Stuart Van,Corporate,367,13,8935.54,2,1,2,5,Needs Attention,0
+SV-20935,Susan Vittorini,Consumer,54,21,5358.14,4,3,2,9,Potential Customers,0
+SW-20245,Scot Wooten,Consumer,254,23,18895.87,2,3,4,9,Potential Customers,0
+SW-20275,Scott Williamson,Consumer,3,12,5282.8,5,1,2,8,Potential Customers,0
+SW-20350,Sean Wendt,Home Office,257,13,5495.33,2,1,2,5,Needs Attention,0
+SW-20455,Shaun Weien,Consumer,232,16,7407.0,2,2,2,6,Needs Attention,0
+SW-20755,Steven Ward,Corporate,589,14,5468.31,1,2,2,5,Needs Attention,0
+SZ-20035,Sam Zeldin,Home Office,21,41,20698.61,5,5,4,14,Champions,1
+TA-21385,Tom Ashbrook,Home Office,129,16,19128.41,3,2,4,9,Potential Customers,0
+TB-21055,Ted Butterfield,Consumer,47,22,5095.53,4,3,1,8,Potential Customers,0
+TB-21175,Thomas Boland,Corporate,97,15,22488.12,3,2,5,10,Loyal Customers,0
+TB-21190,Thomas Brumley,Home Office,881,8,1501.95,1,1,1,3,Needs Attention,2
+TB-21250,Tim Brockman,Consumer,4,35,11695.22,5,5,3,13,Champions,1
+TB-21280,Toby Braunhardt,Consumer,101,25,8740.52,3,4,2,9,Potential Customers,0
+TB-21355,Todd Boyes,Corporate,14,27,7805.18,5,4,2,11,Loyal Customers,0
+TB-21400,Tom Boeckenhauer,Consumer,397,27,32160.4,1,4,5,10,Loyal Customers,1
+TB-21520,Tracy Blumstein,Consumer,47,25,8430.3,4,4,2,10,Loyal Customers,0
+TB-21595,Troy Blackwell,Consumer,301,14,2238.69,2,2,1,5,Needs Attention,0
+TB-21625,Trudy Brown,Consumer,3,30,17906.13,5,4,4,13,Champions,1
+TC-20980,Tamara Chand,Corporate,38,17,27552.83,4,2,5,11,Loyal Customers,1
+TC-21145,Theresa Coyne,Corporate,41,7,5414.41,4,1,2,7,Potential Customers,0
+TC-21295,Toby Carlisle,Consumer,123,34,23446.71,3,5,5,13,Champions,1
+TC-21475,Tony Chapman,Home Office,448,24,15236.24,1,4,4,9,Potential Customers,0
+TC-21535,Tracy Collins,Home Office,15,16,3169.6,5,2,1,8,Potential Customers,0
+TD-20995,Tamara Dahlen,Consumer,42,30,10361.79,4,4,3,11,Loyal Customers,0
+TG-21310,Toby Gnade,Consumer,773,14,6183.91,1,2,2,5,Needs Attention,2
+TG-21640,Trudy Glocke,Consumer,552,12,4591.47,1,1,1,3,Needs Attention,0
+TH-21100,Thea Hendricks,Consumer,96,22,28568.35,3,3,5,11,Loyal Customers,1
+TH-21115,Thea Hudgings,Corporate,638,15,15047.07,1,2,4,7,Potential Customers,0
+TH-21235,Tiffany House,Corporate,382,28,9507.2,2,4,3,9,Potential Customers,0
+TH-21550,Tracy Hopkins,Home Office,7,28,26428.31,5,4,5,14,Champions,1
+TM-21010,Tamara Manning,Consumer,116,34,15592.38,3,5,4,12,Loyal Customers,1
+TM-21490,Tony Molinari,Consumer,11,11,5732.42,5,1,2,8,Potential Customers,0
+TN-21040,Tanja Norvell,Home Office,129,24,30316.91,3,4,5,12,Loyal Customers,1
+TP-21130,Theone Pippenger,Consumer,83,27,12585.16,3,4,3,10,Loyal Customers,0
+TP-21415,Tom Prescott,Consumer,40,15,19287.35,4,2,4,10,Loyal Customers,0
+TP-21565,Tracy Poddar,Corporate,19,13,16056.0,5,1,4,10,Loyal Customers,0
+TR-21325,Toby Ritter,Consumer,104,14,3548.91,3,2,1,6,Needs Attention,0
+TS-21085,Thais Sissman,Consumer,136,4,4230.92,3,1,1,5,Needs Attention,0
+TS-21160,Theresa Swint,Corporate,41,29,6001.86,4,4,2,10,Loyal Customers,0
+TS-21205,Thomas Seio,Corporate,24,37,14733.39,4,5,4,13,Champions,1
+TS-21340,Toby Swindell,Consumer,48,16,2917.52,4,2,1,7,Potential Customers,0
+TS-21370,Todd Sumrall,Corporate,8,25,23336.69,5,4,5,14,Champions,1
+TS-21430,Tom Stivers,Corporate,187,17,3518.43,2,2,1,5,Needs Attention,0
+TS-21505,Tony Sayre,Consumer,52,26,12755.19,4,4,3,11,Loyal Customers,0
+TS-21610,Troy Staebel,Consumer,35,27,10958.82,4,4,3,11,Loyal Customers,0
+TS-21655,Trudy Schmidt,Consumer,101,21,9501.32,3,3,3,9,Potential Customers,0
+TT-21070,Ted Trevino,Consumer,46,22,13269.92,4,3,3,10,Loyal Customers,0
+TT-21220,Thomas Thornton,Consumer,190,33,7626.99,2,5,2,9,Potential Customers,0
+TT-21265,Tim Taslimi,Corporate,737,6,1262.1,1,1,1,3,Needs Attention,2
+TT-21460,Tonja Turnell,Home Office,249,26,17290.18,2,4,4,10,Loyal Customers,1
+TW-21025,Tamara Willingham,Home Office,16,24,19476.61,5,4,4,13,Champions,1
+TZ-21580,Tracy Zic,Consumer,73,12,4922.8,3,1,1,5,Needs Attention,0
+VB-21745,Victoria Brennan,Corporate,42,18,12768.35,4,2,3,9,Potential Customers,0
+VD-21670,Valerie Dominguez,Consumer,4,18,20345.4,5,2,4,11,Loyal Customers,0
+VF-21715,Vicky Freymann,Home Office,158,20,17932.83,2,3,4,9,Potential Customers,0
+VG-21790,Vivek Gonzalez,Consumer,382,16,7372.96,1,2,2,5,Needs Attention,0
+VG-21805,Vivek Grady,Corporate,659,17,8359.84,1,2,2,5,Needs Attention,0
+VM-21685,Valerie Mitchum,Home Office,114,19,6493.92,3,3,2,8,Potential Customers,0
+VM-21835,Vivian Mathis,Consumer,21,12,3949.59,5,1,1,7,Potential Customers,0
+VP-21730,Victor Preis,Home Office,913,8,1181.01,1,1,1,3,Needs Attention,2
+VP-21760,Victoria Pisteka,Corporate,419,20,14836.38,1,3,4,8,Potential Customers,0
+VS-21820,Vivek Sundaresam,Consumer,111,18,10386.55,3,2,3,8,Potential Customers,0
+VT-21700,Valerie Takahito,Home Office,249,17,15710.22,2,2,4,8,Potential Customers,0
+VW-21775,Victoria Wilson,Corporate,169,31,41160.57,2,5,5,12,Loyal Customers,1
+WB-21850,William Brown,Consumer,5,52,24478.63,5,5,5,15,Champions,1
+XP-21865,Xylona Preis,Consumer,14,35,13149.73,5,5,3,13,Champions,1
+YC-21895,Yoseph Carroll,Corporate,724,15,16035.59,1,2,4,7,Potential Customers,0
+YS-21880,Yana Sorensen,Corporate,213,21,14086.31,2,3,4,9,Potential Customers,0
+ZC-21910,Zuschuss Carroll,Consumer,42,54,31168.15,4,5,5,14,Champions,1
+ZD-21925,Zuschuss Donatelli,Consumer,31,18,4445.17,4,2,1,7,Potential Customers,0

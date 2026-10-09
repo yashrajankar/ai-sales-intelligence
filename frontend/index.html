@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Sales Intelligence & Customer Forecasting System">
+    <title>AI Sales Intelligence System</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <div class="brand-icon">
+                    <i class="bi bi-cpu-fill"></i>
+                </div>
+                <span class="fw-bold fs-5">SalesIntel AI</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto nav-pills" id="dashboardNav" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab">
+                            <i class="bi bi-grid-1x2-fill me-1"></i> Executive Overview
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales" type="button" role="tab">
+                            <i class="bi bi-graph-up-arrow me-1"></i> Sales & Forecasting
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="customers-tab" data-bs-toggle="tab" data-bs-target="#customers" type="button" role="tab">
+                            <i class="bi bi-people-fill me-1"></i> Customer Intelligence
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="products-tab" data-bs-toggle="tab" data-bs-target="#products" type="button" role="tab">
+                            <i class="bi bi-box-seam-fill me-1"></i> Products & Audit
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center gap-2 header-actions mt-3 mt-lg-0">
+                    <div class="last-updated">
+                        <i class="bi bi-clock"></i>
+                        <span id="lastUpdated">Updating...</span>
+                    </div>
+                    <div class="status-badge" id="apiStatus">
+                        <span class="status-dot"></span>
+                        API Connected
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-4 py-4">
+
+        <!-- HEADER BANNER -->
+        <header class="dashboard-header mb-4">
+            <div>
+                <div class="eyebrow">
+                    <i class="bi bi-cpu-fill me-1"></i> AI Sales Intelligence System
+                </div>
+                <h1>Executive Overview</h1>
+                <p class="subtitle">Real-time performance analytics, behavioral segmentation & predictive machine learning insights</p>
+            </div>
+        </header>
+
+        <!-- PRIMARY KPIS -->
+        <section class="row g-3 mb-3">
+            <div class="col-xl-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon sales-icon">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="kpi-content">
+                        <div class="kpi-title">TOTAL SALES</div>
+                        <div class="kpi-value" id="totalSales">--</div>
+                        <div class="kpi-meta">Overall revenue generated</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon profit-icon">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <div class="kpi-content">
+                        <div class="kpi-title">TOTAL PROFIT</div>
+                        <div class="kpi-value" id="totalProfit">--</div>
+                        <div class="kpi-meta">Total net profit</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon orders-icon">
+                        <i class="bi bi-cart-check"></i>
+                    </div>
+                    <div class="kpi-content">
+                        <div class="kpi-title">TOTAL ORDERS</div>
+                        <div class="kpi-value" id="totalOrders">--</div>
+                        <div class="kpi-meta">Completed transactions</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="kpi-card">
+                    <div class="kpi-icon customer-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="kpi-content">
+                        <div class="kpi-title">TOTAL CUSTOMERS</div>
+                        <div class="kpi-value" id="totalCustomers">--</div>
+                        <div class="kpi-meta">Active customer database</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECONDARY METRICS -->
+        <section class="row g-3 mb-4">
+            <div class="col-md-4">
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="bi bi-percent"></i>
+                    </div>
+                    <div>
+                        <span>PROFIT MARGIN</span>
+                        <strong id="profitMargin">--</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="bi bi-bag-check"></i>
+                    </div>
+                    <div>
+                        <span>AVERAGE ORDER VALUE</span>
+                        <strong id="averageOrderValue">--</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="metric-card">
+                    <div class="metric-icon">
+                        <i class="bi bi-box-seam"></i>
+                    </div>
+                    <div>
+                        <span>TOTAL QUANTITY</span>
+                        <strong id="totalQuantity">--</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB CONTENT CONTAINER -->
+        <div class="tab-content" id="dashboardTabContent">
+            
+            <!-- TAB 1: EXECUTIVE OVERVIEW -->
+            <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                
+                <!-- AUTOMATED INSIGHTS -->
+                <section class="row g-4 mb-4">
+                    <div class="col-12">
+                        <div class="card-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Business Insights Synthesis</h4>
+                                    <p class="subtitle">Automated key findings generated from MySQL database and ML models</p>
+                                </div>
+                                <span class="chart-badge"><i class="bi bi-magic me-1"></i> Automated Synthesis</span>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-lg-4">
+                                    <div class="insight-item">
+                                        <div class="insight-icon">
+                                            <i class="bi bi-bar-chart-line"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Sales Performance</h6>
+                                            <p id="salesInsight">Analyzing sales metrics...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="insight-item">
+                                        <div class="insight-icon">
+                                            <i class="bi bi-people"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Customer Intelligence</h6>
+                                            <p id="customerInsight">Analyzing customer segments...</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="insight-item">
+                                        <div class="insight-icon">
+                                            <i class="bi bi-graph-up-arrow"></i>
+                                        </div>
+                                        <div>
+                                            <h6>Sales Forecast</h6>
+                                            <p id="forecastInsight">Calculating prediction trends...</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- HISTORICAL TRENDS & CATEGORY BREAKDOWN -->
+                <section class="row g-4 mb-4">
+                    <div class="col-lg-8">
+                        <div class="card-box chart-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Sales Performance</h4>
+                                    <p class="subtitle">Historical revenue and profitability trends over time</p>
+                                </div>
+                                <span class="chart-badge">Historical Trend</span>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="monthlySalesChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card-box chart-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Sales by Category</h4>
+                                    <p class="subtitle">Revenue contribution by product category</p>
+                                </div>
+                                <span class="chart-badge">Categories</span>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="categorySalesChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 2: SALES & FORECASTING -->
+            <div class="tab-pane fade" id="sales" role="tabpanel" aria-labelledby="sales-tab">
+                <section class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card-box chart-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Regional Performance</h4>
+                                    <p class="subtitle">Sales distribution across geographical regions</p>
+                                </div>
+                                <span class="chart-badge">Geographic</span>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="regionSalesChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="card-box chart-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>AI Sales Forecast</h4>
+                                    <p class="subtitle">Machine-learning based future sales prediction</p>
+                                </div>
+                                <span class="forecast-badge" id="forecastModel">XGBoost Forecasting</span>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="forecastChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 3: CUSTOMER INTELLIGENCE -->
+            <div class="tab-pane fade" id="customers" role="tabpanel" aria-labelledby="customers-tab">
+                <section class="row g-4 mb-4">
+                    <div class="col-lg-5">
+                        <div class="card-box chart-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Customer Segments</h4>
+                                    <p class="subtitle">RFM Analysis + K-Means Customer Segmentation</p>
+                                </div>
+                                <span class="forecast-badge">RFM + K-Means</span>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="segmentChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="card-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Customer Intelligence Summary</h4>
+                                    <p class="subtitle">Behavioral segmentation metrics and distribution</p>
+                                </div>
+                                <span class="table-badge">Segmentation Analysis</span>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>Segment</th>
+                                            <th>Customers</th>
+                                            <th>Avg Recency</th>
+                                            <th>Avg Frequency</th>
+                                            <th class="text-end">Avg Monetary Value</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="segmentTable">
+                                        <tr>
+                                            <td colspan="5" class="empty-state">Loading customer segments...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="row g-4 mb-4">
+                    <div class="col-12">
+                        <div class="card-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Top High-Value Customers</h4>
+                                    <p class="subtitle">Top 10 highest-spending business accounts</p>
+                                </div>
+                                <span class="table-badge">Top 10 Accounts</span>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">#</th>
+                                            <th style="width: 60%;">Customer</th>
+                                            <th style="width: 30%;" class="text-end">Total Spend</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="customerTable">
+                                        <tr>
+                                            <td colspan="3" class="empty-state">Loading customer rankings...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- TAB 4: PRODUCTS & AUDIT -->
+            <div class="tab-pane fade" id="products" role="tabpanel" aria-labelledby="products-tab">
+                <section class="row g-4 mb-4">
+                    <div class="col-lg-6">
+                        <div class="card-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Top Generating Products</h4>
+                                    <p class="subtitle">Top 10 revenue-generating catalog items</p>
+                                </div>
+                                <span class="table-badge">Top 10</span>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;">#</th>
+                                            <th style="width: 60%;">Product</th>
+                                            <th style="width: 30%;" class="text-end">Sales</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="productTable">
+                                        <tr>
+                                            <td colspan="3" class="empty-state">Loading product rankings...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" id="categoryPerformanceSection">
+                        <div class="card-box">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4>Category Performance</h4>
+                                    <p class="subtitle">Revenue versus profitability metrics by category</p>
+                                </div>
+                                <span class="table-badge">Financial Breakdown</span>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>Category</th>
+                                            <th>Sales</th>
+                                            <th>Profit</th>
+                                            <th class="text-end">Profit Margin</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="categoryPerformanceTable">
+                                        <tr>
+                                            <td colspan="4" class="empty-state">Loading category details...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="row g-4 mb-4" id="lossProductsSection">
+                    <div class="col-12">
+                        <div class="card-box border-danger-subtle">
+                            <div class="card-header-row">
+                                <div>
+                                    <h4 class="text-danger"><i class="bi bi-exclamation-octagon-fill me-1"></i> Loss-Making Products Risk Audit</h4>
+                                    <p class="subtitle">Products requiring urgent margin review and price/cost correction</p>
+                                </div>
+                                <span class="warning-badge"><i class="bi bi-exclamation-triangle-fill me-1"></i> Attention Required</span>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Gross Sales</th>
+                                            <th class="text-end">Net Deficit (Loss)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="lossProductTable">
+                                        <tr>
+                                            <td colspan="3" class="empty-state">Loading inventory review...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="mt-5">
+            <div class="d-flex justify-content-center align-items-center gap-2 flex-wrap">
+                <span>AI Sales Intelligence Dashboard</span>
+                <span>•</span>
+                <span>Flask API Backend</span>
+                <span>•</span>
+                <span>MySQL Analytics Engine</span>
+                <span>•</span>
+                <span>Chart.js & Bootstrap 5</span>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
